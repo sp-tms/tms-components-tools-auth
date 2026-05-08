@@ -1,0 +1,51 @@
+{
+	"name" : "Auth",
+	"route" : "auth",
+	"description" : "<p>TMS Auth component</p>",
+	"module_type" : "components",
+	"app_type" : "tms",
+	"category" : "tools",
+	"version" : "0.0.0",
+	"repo" : "https://github.com/sp-tms/tms-components-tools-auth",
+	"class" : "Apps\\Tms\\Components\\Auth\\AuthComponent",
+	"dependencies" : 
+	{
+		"core" : 
+		{
+			"name" : "Core",
+			"version" : "0.0.0-rc.15",
+			"repo" : "https://github.com/sp-framework/core"
+		},
+		"apptype" : 
+		{
+			"name" : "Transport Management System",
+			"version" : "0.0.0",
+			"repo" : "https://github.com/sp-tms/tms"
+		},
+		"packages" : [],
+		"middlewares" : [],
+		"views" : [],
+		"externals" : 
+		{
+			"composer" : 
+			{
+				"require" : []
+			},
+			"config" : 
+			{
+				"allow-plugins" : []
+			},
+			"extra" : 
+			{
+				"patches" : []
+			}
+		}
+	},
+	"menu" : "false",
+	"widgets" : [],
+	"settings" : 
+	{
+		"mandatory" : true,
+		"needAuth" : "disabled"
+	}
+}
