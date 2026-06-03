@@ -88,7 +88,7 @@ class AuthComponent extends BaseComponent
     {
         $this->requestIsPost();
 
-        $auth = $this->access->auth->attempt($this->postData());
+        $auth = $this->access->auth->login($this->postData());
 
         $this->addResponse(
             $this->access->auth->packagesData->responseMessage,
