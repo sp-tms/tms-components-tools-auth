@@ -5,7 +5,7 @@
 	"module_type" : "components",
 	"app_type" : "tms",
 	"category" : "tools",
-	"version" : "0.1.0",
+	"version" : "0.2.0",
 	"repo" : "https://github.com/sp-tms/tms-components-tools-auth",
 	"class" : "Apps\\Tms\\Components\\Auth\\AuthComponent",
 	"dependencies" : 
@@ -43,6 +43,7 @@
 	},
 	"menu" : "false",
 	"widgets" : [],
+	"filters" : [],
 	"settings" : 
 	{
 		"mandatory" : true,
