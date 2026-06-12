@@ -5,7 +5,7 @@
 	"module_type" : "components",
 	"app_type" : "tms",
 	"category" : "tools",
-	"version" : "0.1.0",
+	"version" : "0.2.0",
 	"repo" : "https://github.com/sp-tms/tms-components-tools-auth",
 	"class" : "Apps\\Tms\\Components\\Auth\\AuthComponent",
 	"dependencies" : 
@@ -23,8 +23,22 @@
 			"repo" : "https://github.com/sp-tms/tms"
 		},
 		"packages" : [],
-		"middlewares" : [],
-		"views" : [],
+		"middlewares" : 
+		[
+			{
+				"name" : "Auth",
+				"version" : "0.1.0",
+				"repo" : "https://github.com/sp-tms/tms-middlewares-tools-auth"
+			}
+		],
+		"views" : 
+		[
+			{
+				"name" : "Auth",
+				"version" : "0.2.0",
+				"repo" : "https://github.com/sp-tms/tms-views-tools-default-auth"
+			}
+		],
 		"externals" : 
 		{
 			"composer" : 
@@ -43,6 +57,7 @@
 	},
 	"menu" : "false",
 	"widgets" : [],
+	"filters" : [],
 	"settings" : 
 	{
 		"mandatory" : true,
